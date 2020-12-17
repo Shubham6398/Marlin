@@ -43,6 +43,17 @@
 #define MOSFET_D_PIN                           7
 
 //
+//  Define X2 Stepper for IDEX
+//  Kreator Printer with MKS MotherBoard
+//
+//#if ENABLED(DUAL_X_CARRIAGE)
+//  #define X2_STEP_PIN                           64
+//  #define X2_DIR_PIN                            59
+//  #define X2_ENABLE_PIN                         44
+//#endif
+
+
+//
 // PSU / SERVO
 //
 // If PSU_CONTROL is specified, always hijack Servo 3
